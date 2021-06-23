@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.laranja{
+    background-color: orange;
+    width: 400px;
+    height: 300px;
+
+
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.verde{
+    background-color: green;
+    width: 400px;
+    height: 300px;
+}
+
+.preto{
+    width: 100px;
+    height: 80px;
+    background-color: black;
+}
+
+.vermelho{
+    width: 100px;
+    height: 80px;
+    background-color: red;
+}

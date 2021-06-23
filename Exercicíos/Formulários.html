@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <label for="campo_nome"> Nome Completo:</label>
+        <input type="text" name="nome-completo" id="Nome completo" placeholder="Nome completo aqui" />
+
+        <label for="campo_senha"> Senha:</label>
+        <input type="password" name="senha-usuario" id="campo_senhra" placeholder="Senha" />
+
+
+        <label for="sexo">Sexo</label>
+        <input type="radio" id="sexo" name="sexo" value="masculino"> Masculino
+        <input type="radio" id="sexo" name="sexo" value="Feminino"> Feminino
+
+        <label for="cursos">Cursos desejados</label>
+        <input type="checkbox" name="cursos[]" id="cursos">HTML
+        <input type="checkbox" name="cursos[]" id="cursos">CSS
+        <input type="checkbox" name="cursos[]" id="cursos">Javascript
+
+        <label for="cidade-usuaruio">Cidade</label>
+        <select name="cidade" id="cidade-usuario">
+            <option value="" selected>Escolha uma cidade...</option>
+            <option value="sao-paulo">São Paulo - SP</option>
+            <option value="guarulhos">Guarulhos - SP</option>
+            <option value="suzano">Suzano - SP</option>
+        </select>
+
+        <input type="submit" value="Enviar" />
+
+    </form>
+</body>
+
+</html>
