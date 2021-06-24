@@ -84,4 +84,47 @@ h1{
     width: 80px;
 }
 
+.sobre-projetos {
+    background-color: #080324;
+    padding-top: 40px;
+}
+
+.sobre-projetos h2 {
+    color: #f9003d;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.conteudo-sobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem-sobre {
+    width: 40%;
+}
+
+.texto {
+    width: 40%;
+}
+
+
+.texto-participantes {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sobre-projetos h3 {
+    color: yellow;
+    font-size: 50px;
+} 
 
