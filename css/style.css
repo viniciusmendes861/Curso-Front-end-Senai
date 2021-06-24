@@ -87,6 +87,7 @@ h1{
 .sobre-projetos {
     background-color: #080324;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .sobre-projetos h2 {
@@ -106,7 +107,7 @@ h1{
 }
 
 .texto {
-    width: 40%;
+    width: 50%;
 }
 
 
@@ -120,7 +121,7 @@ h1{
 
 p {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .sobre-projetos h3 {
