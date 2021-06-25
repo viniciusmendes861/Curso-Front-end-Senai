@@ -129,3 +129,72 @@ p {
     font-size: 50px;
 } 
 
+.info {
+    background-image: url(/Imagens/imagem-fundo-info.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    padding: 40px;
+}
+
+.conteudo-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.card-info h3 {
+    color: white;
+    font-size: 22px;
+}
+
+.card-info p {
+    color: #A259F7;
+    font-size: 20px;
+    font-weight: 600;
+    border: solid 2px #A259F7;
+    width: 250px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.endereco {
+    padding: 40px 0;
+    background-image: url(../Imagens/imagem-fundo-ranking.jpg);
+}
+
+.conteudo-endereco {
+    position: relative;
+    margin: 0 auto;
+    width: 850px;
+}
+
+.texto-endereco {
+    background-color: #010010;
+    border: solid 2px #A259F7
+}
+
+ .texto-endereco p {
+    width: 400px;
+    color: #A259F7;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;  
+    padding: 55px 55px;
+}
+
+.conteudo-endereco h2 {
+    color: #ffaf00;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.mapa {
+    position: absolute;
+    top:0px;
+    right: 20px;
+    width: 250px;
+}
