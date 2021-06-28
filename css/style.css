@@ -25,6 +25,8 @@ body {
 header{
     background-color: #f9003c;
     height: 80px;
+    position: fixed;
+    width: 100%;
 }
 
 .menu-header{
@@ -38,6 +40,14 @@ header{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
+    transition: 1s;
+}
+
+.menu-header a:hover {
+    font-size: 2em;
+    transition: 1s;
+    /* color: black; */
+    text-shadow: 4px 4px 4px rgb(78, 78, 78);
 }
 
 .banner {
