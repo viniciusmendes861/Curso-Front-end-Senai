@@ -130,7 +130,7 @@ p {
 } 
 
 .info {
-    background-image: url(/Imagens/imagem-fundo-info.jpg);
+    background-image: url(../Imagens/imagem-fundo-info.jpg);
     background-repeat: no-repeat;
     background-position: center ;
     background-size: cover;
@@ -197,4 +197,17 @@ p {
     top:0px;
     right: 20px;
     width: 250px;
+}
+
+footer {
+    height: 80px;
+    background-color: #f9003d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
