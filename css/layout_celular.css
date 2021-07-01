@@ -1,0 +1,22 @@
+.container-grid {
+    width: 90%;
+}
+
+.imagem-sobre {
+    width: 100%;
+}
+
+.texto {
+    width: 100%;
+    height: unset;
+}
+
+
+.mapa {
+    position: unset;
+    width: 380px;
+}
+
+.texto-endereco p {
+    width: unset;
+}
