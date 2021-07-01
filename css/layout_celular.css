@@ -3,7 +3,7 @@
 }
 
 .menu-header {
-    /* display: none; */
+    display: none;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -32,4 +32,9 @@
 
 .texto-endereco p {
     width: unset;
+}
+
+.icone-menu{
+    color: white;
+    font-size: 30px;
 }

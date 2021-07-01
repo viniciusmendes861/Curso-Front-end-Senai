@@ -21,7 +21,7 @@
                 <a href="" title="Endereço do curso">Endereço</a>
             </nav>
             <a href="javascript: void(0)" onclick="mostrarMenu()">
-                <i class="fas fa-bars"></i>
+                <i id="icone-menu" class="fas fa-bars icone-menu"></i>
             </a>
         </div>
     </header>
@@ -91,10 +91,17 @@
     <script>
         function mostrarMenu () {
             var menu = document.getElementById("menu-header");
+            var icone = document.getElementById("icone-menu");
             if(menu.style.display == "none") {
                 menu.style.display = "flex";
+                icone.classList.remove("fa-bars")
+                icone.classList.add("fa-times")
+                // Mudar para times
             } else {
                 menu.style.display = "none";
+                icone.classList.remove("fa-times")
+                icone.classList.add("fa-bars")
+                // Mudar para bars
             }
             
         }
