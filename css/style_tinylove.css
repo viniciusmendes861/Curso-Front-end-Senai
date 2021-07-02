@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid {
+    margin: 0 auto;
+    width: 1200px;    
+}
+
+.imagemfundo_header {
+    background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url(../assetsTinyLove/imagens/fundo-celular.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.icone_logo {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.texto_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icones_tinylove {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 0 auto;
+    color: white;
+}
+
+.texto {
+    color: white;
+    height: 100px;
+    width: 400px;
+}
+
+.container-texto {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.container-texto h2 {
+    padding: 10px;
+}
