@@ -10,16 +10,17 @@
 }
 
 .imagemfundo_header {
-    background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url(../assetsTinyLove/imagens/fundo-celular.jpg);
+    background: url(../assetsTinyLove/imagens/fundo-celular.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 380px;
+    border-bottom: solid 5px #b34334;
 }
 
 .icone_logo {
     display: flex;
     justify-content: center;
-    height: 60px;
+    height: 45px;
 }
 
 .texto_logo {
@@ -27,7 +28,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 80px;
+    height: 60px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -38,7 +39,19 @@
     width: 100px;
     margin: 0 auto;
     color: white;
+    margin-top: 10px;
 }
+    .icone_facebook {
+        color: white;
+    }
+
+    .icone_instagram {
+        color: white;
+    }
+
+    .icone_twitter {
+        color: white;
+    }
 
 .texto {
     color: white;
@@ -48,10 +61,21 @@
 
 .container-texto {
     display: flex;
-    justify-content: flex-end;
-    width: 100%;
+    justify-content: center;
+    width: 135%;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 14px;
 }
 
 .container-texto h2 {
-    padding: 10px;
+    padding: 15px;
+}
+
+.icones_celulares {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 30px;
 }
