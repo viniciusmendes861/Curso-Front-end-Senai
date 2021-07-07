@@ -217,14 +217,26 @@ body {
 .primeira-secao-main {
     width: 100%;
     background-color: #393b47;
+}
+
+.conteudo-primeira-secao {
     display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .imagem-celular {
-    width: 200px;
-    
+    width: 15%;
+    margin-left: 250px;
+    margin-top: 50px;
 }
 
+.conteudo-secao {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
