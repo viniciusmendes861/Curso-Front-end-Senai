@@ -215,21 +215,22 @@ body {
 }
 
 .primeira-secao-main {
-    width: 100%;
     background-color: #393b47;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
 }
 
 .conteudo-primeira-secao {
+    width: 70%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    
 }
 
 .imagem-celular {
-    width: 15%;
-    margin-left: 250px;
-    margin-top: 50px;
+    width: 30%;
 }
 
 .conteudo-secao {
@@ -237,6 +238,118 @@ body {
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 50%;
-    text-align: center;
+    padding-top: 20px;
+}
+
+.titulo-primeira-secao {
+    color: white;
+    font-size: 30px;
+}
+
+.titulo-paragrafo {
+    color: white;
+    font-size: 30px;
+}
+
+.conteudo-secao p {
+    display: flex;
+    align-items: flex-end;
+}
+
+.icone-lapis {
+    font-size: 30px;
+    color: #b34334;
+    padding-top: 25px;
+}
+.segunda-secao-main {
+    background-color: #2d2d37;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.conteudo-segunda-secao {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.imagem-celular {
+    width: 30%;
+}
+
+.conteudo-secao {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.titulo-icone {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-paragrafo {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 30px;
+}
+
+.conteudo-secao p {
+   display: flex;
+   align-items: flex-end;
+}
+
+.icone-barras {
+    font-size: 30px;
+    color: #b34334;
+}
+.terceira-secao-main {
+    background-color: #393b47;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.conteudo-terceira-secao {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.imagem-celular {
+    width: 30%;
+}
+
+.conteudo-secao {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.titulo-paragrafo {
+    color: white;
+    font-size: 30px;
+}
+
+.conteudo-secao p {
+    display: flex;
+    align-items: flex-end;
+}
+
+.icone-mapas {
+    font-size: 30px;
+    color: #b34334;
+    padding-top: 25px;
 }
