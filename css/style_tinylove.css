@@ -353,3 +353,70 @@ body {
     color: #b34334;
     padding-top: 25px;
 }
+
+.secao-formulario {
+    background-color: #c54b3c;
+    padding: 40px 0;
+    color: white;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-form {
+    font-size: 43px;
+    font-weight: lighter;
+}
+
+.formulario {
+    width: 400px;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-form input {
+    height: 32px;
+}
+
+.campo-form textarea {
+    resize: unset;
+}
+
+.formulario input[type="submit"] {
+    background-color: #af4638;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    width: 85px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #7a291f;
+    cursor: pointer;
+}
+
+footer {
+    height: 60px;
+}
+
+.container-footer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-footer span {
+    font-size: 12px;
+}
