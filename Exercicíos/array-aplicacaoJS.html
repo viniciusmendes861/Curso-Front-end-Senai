@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação Cadastro de Frutas</title>
+</head>
+<body>
+    <h1>Cadastro de Frutas</h1>
+    <form action="">
+        <label for="fruta">Nome da Fruta</label>
+        <input type="text" name="fruta" id="fruta">
+        <button onclick="cadastrarFruta()">Cadastrar</button>
+        <button onclick="reiniciarTudo()">Reiniciar</button>
+    </form>
+
+    <ul id="lista-frutas"></ul>
+
+    <script>
+        let frutas = [];
+
+        function reiniciarTudo() {
+            event.preventDefault();
+            frutas = [];
+            document.getElementById("lista-frutas").innerHTML = "";
+        }
+
+        function cadastrarFruta(){
+            event.preventDefault();
+            let f = document.getElementById("fruta").value
+            frutas.push(f);
+            console.log(frutas);
+
+            let txtFrutas = "";
+            for (let i = 0; i < frutas.length; i++) {
+                txtFrutas += `<li>${frutas[i]}</li>`;
+            }
+
+
+            document.getElementById("lista-frutas").innerHTML = txtFrutas;
+
+            document.getElementById("fruta").value = "";
+        }
+    </script>
+</body>
+</html>
