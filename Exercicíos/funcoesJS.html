@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções JavaScript</title>
+</head>
+<body>
+    <h1>Funções em JavaScript</h1>
+
+    <form action="">
+        <label for="">Número 1</label>
+        <input type="number" id="n1">
+
+
+        <label for="">Número 2</label>
+        <input type="number" id="n2">
+
+        <select name="" id="operacao">
+            <option value="">Selecione</option>
+            <option value="subtrair">Subtrair</option>
+            <option value="somar">Somar</option>
+            <option value="multiplicar">Multiplicar</option>
+            <option value="dividir">Dividir</option>
+        </select>
+        <button onclick="calcular()">Calcular</button>
+        <input type="text" id="resultado" readonly>
+    </form>
+
+    <script>
+        function calcular(){
+        let n1 = parseFloat(document.getElementById("n1").value);
+        let n2 = parseFloat(document.getElementById("n2").value);
+        let operacao = document.getElementById("operacao").value;
+
+        if( operacao == "somar" ){
+            alert( somar(n1,n2) )
+        } else if (operacao == "subtrair"){
+            alert( subtrair(n1,n2))
+        } else if (operacao == "dividir"){
+            alert( dividir(n1,n2))
+        } else if (operacao == "multiplicar"){
+            alert( multiplicar(n1,n2))
+        } else {
+            alert("Operação Inválida!!")
+        }
+
+        function somar(x, y) {
+            return x + y;
+        }
+
+        function subtrair(x, y) {
+            return x - y;
+        }
+
+        function dividir(x, y) {
+            return x / y;
+            if (y == "0"){
+                return "Não existe divisão por zero!";
+            }
+        }
+        
+        function multiplicar(x, y) {
+            return x * y;
+        }
+        }
+    </script>
+</body>
+</html>
